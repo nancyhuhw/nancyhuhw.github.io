@@ -1,12 +1,13 @@
 body {
   background-color:rgb(0,0,200);
-  color: rgb(243, 31, 243)
+  color: white
 }
 
 a {
   color: yellow;
-  font-size: 65;
+  font-size: 100px;
   text-decoration: none;
+  margin-left: 50px
 }
 
 a:hover {
@@ -16,4 +17,6 @@ a:hover {
 
 .p1 {
   margin: 50.0px 50.0px 50.0px 50.0px;
-  font-family: 60.0px Helvetica}
+  font-family: Helvetica;
+  font-size: 150px
+}

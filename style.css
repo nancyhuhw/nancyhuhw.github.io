@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(255,255,255);
+  color: lightgreen
+}
+
+h1 {
+  color: green
+}
+
+a {
+  color: black;
+  font-size: 65;
+  text-decoration: none;
+}
+
+ul {
+  color: gray;
+}
+
+a:hover {
+  font-size: 100;
+  color: rgb(0,200,0);
+}
