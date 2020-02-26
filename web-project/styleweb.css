@@ -1,0 +1,88 @@
+body {
+		font-family:monospace;
+		font-size: 16px;
+		color: black;
+		background-color: black;
+}
+
+
+.box {
+	display: flex;
+	justify-content: space-evenly
+}
+
+section1 {
+	text-align: center;
+	padding: 2vw;
+	margin: 0.4vh;
+	background-color: black;
+	width: 70px
+}
+
+section2 {
+	text-align: center;
+	padding: 1vw;
+	margin: 0.4vh;
+	background-color: black;
+	width: 50px
+}
+
+section3 {
+	margin: 0.4vh;
+	padding: 2vw;
+	background-color: black;
+	width: 148px;
+	height: 110px;
+	text-align: center;
+}
+
+section4 {
+	text-align: center;
+	padding: 0.5vw;
+	margin: 0.2vh;
+	background-color: black;
+	width: 20px
+}
+
+section5 {
+	text-align: center;
+	padding: 1vw;
+	margin: 0.4vh;
+	background-color: black;
+	width: 50px
+}
+
+section1:hover {
+  background-color: lightgreen;
+  border-radius: 0px
+}
+
+section2:hover {
+  background-color: yellow;
+  border-radius: 0px
+}
+
+section3:hover {
+  background-color: lightblue;
+  border-radius: 0px
+}
+
+section4:hover {
+  background-color: pink;
+  border-radius: 0px
+}
+
+section5:hover {
+  background-color: sandybrown;
+  border-radius: 0px
+}
+
+a {
+	margin: 0.4vh;
+	background-color: black;
+	width: 80px
+}
+
+a:hover {
+	background-color: yellow;
+}

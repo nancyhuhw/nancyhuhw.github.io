@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: white
+}
+
+a {
+  color: black;
+  font-size: 500px;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 500px;
+  color: white;
+}
+
+.p1 {
+  margin: 50.0px 50.0px 50.0px 50.0px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 500px
+  aligh: center;
+}
