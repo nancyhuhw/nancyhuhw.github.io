@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  color: white
+}
+
+a {
+  color: black;
+  font-size: 500px;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 500px;
+  color: white;
+}
+
+form {
+  margin: 50.0px 50.0px 50.0px 50.0px;
+  /* font-family:monospace; */
+  font-family: 'Oxanium', cursive;
+  text-align: center;
+}

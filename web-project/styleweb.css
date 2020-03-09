@@ -1,11 +1,14 @@
 body {
-		font-family:monospace;
+		/* font-family:monospace; */
+		font-family: 'Oxanium', cursive;
+		font-weight: bold;
 		font-size: 16px;
-		color: black;
 		background-color: black;
 }
 
-
+#link {
+	display: none;
+}
 .box {
 	display: flex;
 	justify-content: space-evenly
@@ -16,7 +19,9 @@ section1 {
 	padding: 2vw;
 	margin: 0.4vh;
 	background-color: black;
-	width: 70px
+	width: 70px;
+	color: white;
+	border: 1px solid white;
 }
 
 section2 {
@@ -24,24 +29,30 @@ section2 {
 	padding: 1vw;
 	margin: 0.4vh;
 	background-color: black;
-	width: 50px
+	width: 50px;
+	color: white;
+	border: 1px solid white;
 }
 
 section3 {
 	margin: 0.4vh;
 	padding: 2vw;
 	background-color: black;
-	width: 148px;
+	width: 150px;
 	height: 110px;
+	color: white;
 	text-align: center;
+	border: 1px solid white;
 }
 
 section4 {
 	text-align: center;
 	padding: 0.5vw;
-	margin: 0.2vh;
+	margin: 0.3vw;
 	background-color: black;
-	width: 20px
+	width: 20px;
+	color: white;
+	border: 1px solid white;
 }
 
 section5 {
@@ -49,7 +60,9 @@ section5 {
 	padding: 1vw;
 	margin: 0.4vh;
 	background-color: black;
-	width: 50px
+	width: 50px;
+	color: white;
+	border: 1px solid white;
 }
 
 section1:hover {
@@ -80,8 +93,11 @@ section5:hover {
 a {
 	margin: 0.4vh;
 	background-color: black;
-	width: 80px
+	width: 80px;
+	color: white;
+	border: 1px solid white;
 }
+
 
 a:hover {
 	background-color: yellow;
