@@ -9,6 +9,7 @@ body {
 #link {
 	display: none;
 }
+
 .box {
 	display: flex;
 	justify-content: space-evenly
