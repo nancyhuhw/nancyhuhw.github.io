@@ -1,0 +1,141 @@
+body {
+	background-color: white;
+	margin: 0px;
+}
+
+@font-face {
+font-family: 'Luminari';
+font-style: normal;
+font-weight: normal;
+src: local('Luminari'), url('luminari-webfont/Luminari-Regular.woff') format('woff');
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-gap: 0px;
+  grid-template-rows: 70% 30%;
+  grid-template-columns: 62% 24% 14%;
+  grid-template-areas:
+    "a b c"
+    "d e f";
+}
+
+.a {
+  grid-area: a;
+}
+
+.b {
+  grid-area: b;
+}
+
+.c {
+  grid: c;
+	background-color: #d94edd;
+}
+
+.c:hover {
+	background-color: #872296;
+}
+
+.d {
+  grid: d;
+  background-color: white;
+  display: flex;
+	justify-content: space-between;
+}
+
+.e {
+  grid: e;
+	padding-left: 15px;
+}
+
+.f {
+  grid: f;
+}
+
+section2 {
+  width: 16vw;
+}
+
+section3 {
+  position: fixed;
+  font-family: 'Luminari', cursive;
+  padding-left: 28px;
+  padding-top: 70vh;
+  font-size: 7.5vw;
+  line-height: 105%;
+  color: white;
+}
+
+section3:hover {
+	color: black;
+}
+
+section4 {
+  position: fixed;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+section5 {
+  position: fixed;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  padding: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 120px;
+}
+
+section6 {
+	position: absolute;
+}
+
+section7 {
+	position: fixed;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  padding: 20px;
+  padding-top: 115px;
+  padding-bottom: 25px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 7pt;
+  line-height: 170%;
+  color: #2b63ef;
+  letter-spacing: .1rem;
+  padding-bottom: 12px;
+	padding-top: 15px;
+}
+
+p1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 7pt;
+  line-height: 170%;
+  color: #2b63ef;
+  letter-spacing: .1rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1:hover {
+  color: black;
+}
