@@ -1,0 +1,202 @@
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0px;
+}
+
+@font-face {
+font-family: 'kongtext';
+font-style: normal;
+font-weight: normal;
+src: local('kongtext'), url('webkongtext/kongtext-webfont.woff') format('woff');
+}
+
+
+.container {
+	display: grid;
+	position: absolute;
+	grid-template-columns: repeat(11, 9.1%);
+	grid-template-rows: repeat(9, 10%);
+	width: 70vw;
+	height: 100%;
+}
+
+.container1 {
+	display: grid;
+	position: absolute;
+	grid-template-columns: repeat(11, 9.1%);
+	grid-template-rows: repeat(9, 10%);
+	width: 70vw;
+	height: 100%;
+}
+
+
+.item {
+	z-index: 4;
+}
+
+.item0 {
+	z-index: 4;
+	border: 1px solid black;
+	background-color: #4c5bcc;
+}
+
+.item1 {
+	z-index: 2;
+	border: 0.4px solid #b3b3b3;
+}
+
+.item10 {
+	z-index: 4;
+	border: 1px solid black;
+	background-color: #009e9e;
+}
+
+.item11 {
+	z-index: 4;
+	border: 1px solid black;
+	background-color: #3fccfc;
+}
+
+#label {
+	z-index: 4;
+	position: absolute;
+	left: 70%;
+}
+
+#menu {
+	display: flex;
+	position: absolute;
+}
+
+section0 {
+	z-index: 1;
+	position: fixed;
+	background-color: #e6e6e6;
+	border-right: 1px solid black;
+	width: 70%;
+	height: 100%;
+	margin: 0;
+	Padding: 0px;
+}
+
+
+section3 {
+	z-index: 5;
+  position: fixed;
+  font-family: 'kongtext', cursive;
+  left: 52%;
+  top: 50%;
+  font-size: 4.5vw;
+  line-height: 130%;
+	letter-spacing: .2rem;
+}
+
+section3:hover {
+	color: black;
+}
+
+section4 {
+	position: fixed;
+	z-index: 3;
+	padding-top: 10vh;
+}
+
+section5 {
+	position: fixed;
+	z-index: 3;
+	top: 78%;
+	right: 24%;
+}
+
+section6 {
+	position: fixed;
+	z-index: 3;
+	right: 30%;
+}
+
+section7 {
+	position: fixed;
+	z-index: 3;
+	top: 25%;
+	right: 24%;
+}
+
+section8 {
+	position: fixed;
+	z-index: 3;
+	top: 15%;
+	right: 20%;
+}
+
+section10 {
+  position: fixed;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #3fccfc;
+  color: black;
+	border: 1px solid black;
+  padding: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+	z-index: 4;
+}
+
+section11 {
+  position: fixed;
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  padding: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 120px;
+	z-index: 4;
+}
+
+section12 {
+	position: fixed;
+	left: 1.5%;
+	z-index: 4;
+	top: 91%;
+}
+
+section13 {
+	position: fixed;
+	left: 26.6%;
+	z-index: 4;
+	top: 91%;
+}
+
+section14 {
+	position: fixed;
+	left: 46%;
+	z-index: 4;
+	top: 91%;
+}
+
+p2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 7pt;
+  line-height: 170%;
+  color: #f15a24;
+  letter-spacing: .1rem;
+}
+
+p1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 7pt;
+  line-height: 170%;
+  color: #f15a24;
+  letter-spacing: .1rem;
+}
+
+
+a {
+  text-decoration: none;
+	color: #f15a24;
+}
+
+a:hover {
+  color: black;
+}

@@ -6,15 +6,6 @@ body {
 	margin: auto;
 }
 
-//magical & mischievous//
-
-@font-face {
-font-family: 'Luminari';
-font-style: normal;
-font-weight: normal;
-src: local('Luminari'), url('luminari-webfont/Luminari-Regular.woff') format('woff');
-}
-
 
 .box0 {
 	display: flex;
@@ -27,13 +18,20 @@ src: local('Luminari'), url('luminari-webfont/Luminari-Regular.woff') format('wo
 }
 
 .box2 {
-	display:flex;
-	justify-content: space-around;
-	width: 80vw;
-	align-items: center;
-	flex-wrap: wrap;
-	margin: auto;
-	height: 300px;
+	display: flex;
+	justify-content: center;
+}
+
+img {
+	width: 16vw;
+	max-width: 400px;
+	padding-top: 2vh;
+	padding-bottom: 10vh;
+}
+
+section7 {
+	position: absolute;
+	padding-right: 86vw;
 }
 
 section0 {
@@ -77,6 +75,30 @@ section2 {
 	align-self: center;
 }
 
+section5 {
+	padding: 1vw;
+	padding-right: 1vw;
+	width: 180px;
+	height: 6vh;
+	border-right: 1px solid black;
+}
+
+section6 {
+	padding: 1vw;
+	padding-left: 2.5vw;
+	width: 600px;
+	padding-bottom: 10vh;
+}
+
+p1 {
+	text-align: center;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 4.5vh;
+	line-height: 190%;
+	padding: 4vw;
+	width: 120vw;
+	height: 32vh;
+}
 
 p2 {
 	font-family: 'Karla', sans-serif;
@@ -86,12 +108,13 @@ p2 {
 	line-height: 170%;
 }
 
-h1 {
-	font-family: 'Cinzel Decorative', cursive;
-	font-size: 100px;
+p3 {
+	font-family: 'Karla', sans-serif;
+	font-size: 2.2vh;
+	line-height: 145%;
 }
 
-h2 {
-	font-family: 'Luminari';
-	font-size: 100px;
+
+div {
+	display: flex;
 }

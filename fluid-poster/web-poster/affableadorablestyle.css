@@ -1,0 +1,171 @@
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0px;
+}
+
+
+.container {
+	display: grid;
+	grid-template-columns: 20% 12% 12% 20% 36%;
+	grid-template-rows: 100%;
+	height: 100%;
+}
+
+.item1 {
+	background-color: #6633ff;
+	display: grid;
+}
+
+section1 {
+	display: grid;
+	align-items: end;
+	background-image: linear-gradient(to bottom right, white, #d1d5ff);
+	height: 38%;
+}
+
+.item2 {
+	background-color: #00a34d;
+	display: grid;
+}
+
+section2 {
+	display: grid;
+	align-items: end;
+	background-color: white;
+	height: 68%;
+}
+
+.item3 {
+	background-image:linear-gradient(#ffafff, #ffccff);
+	display: grid;
+}
+
+section3 {
+	display: grid;
+	align-items: end;
+	background-color: white;
+	height: 57%;
+}
+
+.item4 {
+	background-color: #fcce0b;
+	display: grid;
+}
+
+section4 {
+	display: grid;
+	align-items: end;
+	background-color: white;
+	height: 82%;
+}
+
+.item5 {
+	background-color: #00a34d;
+	display: grid;
+}
+
+section5 {
+	display: grid;
+	align-items: end;
+	background-image:linear-gradient(#ffafff, #ffccff);
+	height: 68%;
+}
+
+img {
+	max-height: 100%;
+}
+
+
+
+#label {
+	z-index: 4;
+	position: absolute;
+	left: 70%;
+}
+
+
+section15 {
+	position: fixed;
+	font-family: 'Modak', cursive;
+	color: red;
+	font-size: 6.5vw;
+	line-height: 90%;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+section10 {
+  position: fixed;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: red;
+  color: white;
+  padding: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+	bottom: 100px;
+}
+
+section11 {
+  position: fixed;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  padding: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+	bottom: 5px;
+}
+
+section12 {
+	position: fixed;
+	width: 14vw;
+	left: 21vw;
+	top: 14vw;
+	padding-left: 10px;
+}
+
+section13 {
+	position: fixed;
+	width: 14vw;
+	left: 38.4vw;
+	top: 14vw;
+	padding-left: 10px;
+}
+
+section14 {
+	position: fixed;
+	width: 12vw;
+	left: 50vw;
+	top: 14vw;
+	padding-left: 10px;
+}
+
+
+
+p2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 7pt;
+  line-height: 170%;
+  color: red;
+  letter-spacing: .1rem;
+}
+
+p1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 7pt;
+  line-height: 170%;
+  color: red;
+  letter-spacing: .1rem;
+}
+
+
+a {
+  text-decoration: none;
+	color: red;
+}
+
+a:hover {
+	color: #6633ff;
+}

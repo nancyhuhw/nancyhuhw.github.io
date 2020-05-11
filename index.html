@@ -2,13 +2,30 @@
   <head>
   <title>CODING STUFF</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="sketch.js">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+	<meta charset="utf-8">
+
+  <script src="jquery-3.5.1.js"></script>
+
+  <script>
+  console.log ("secret code...you can only see me when you inspect me...");
+  </script>
+
+  <script>
+  //Load this after the document is ready!
+  $(document).ready(function() {
+    $("p").css("color", "pink");
+  });
+  </script>
+
   </head>
+
   <body>
     <h1>Welcome people!</h1>
-    <h2>2020 Digital Imaging Studio</h2>
+    <h2>Digital Imaging Studio</h2>
     <p>wow wow wow wow wow</p>
-    <ul>
+
+    <ul class="list">
       <li><a href="week01/index1.html">01</a></li>
       <li>02</li>
       <li><a href="week03/index3.html">03</a></li>
@@ -18,7 +35,42 @@
       <li>07</li>
       <li>08</li>
       <li><a href="web-project/indexweb.html">Web Project</a></li>
-      <li><a href="fluid-poster/projectindex.html">A Fluid Poster</a></li>
+      <li><a href="fluid-poster/about.html">A Fluid Poster</a></li>
     </ul>
+
+
+    <script>
+
+    //Select!
+    $("h1")
+    //Do!
+    .css({
+      "color": "blue",
+      "font-family": "Arial",
+    })
+
+    //Select!
+    $("ul")
+    //Do!
+    .addClass("callout");
+
+    $(".list")
+    .slideDown();
+
+    $("li:nth-of-type(5)")
+    .css("font-size", "50px");
+
+    //Wait 2 seconds to load this!
+    setTimeout(function() {
+      $("h2")
+      .html("Digital Imaging Studio-2020 Spring");
+    }, 2000);
+
+    </script>
+
+
+
+
   </body>
+
 </html>

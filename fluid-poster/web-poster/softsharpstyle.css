@@ -103,8 +103,9 @@ img {
 
 a {
   text-decoration: none;
+	color: white;
 }
 
-h1:hover {
+a:hover {
   color: #ff931e;
 }
